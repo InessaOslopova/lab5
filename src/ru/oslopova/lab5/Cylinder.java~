@@ -1,4 +1,4 @@
-//23.01.2014 19:50:08
+
 package ru.oslopova.lab5;
 
 public class Cylinder extends Body {

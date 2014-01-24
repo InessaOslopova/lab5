@@ -1,0 +1,18 @@
+//23.01.2014
+package ru.oslopova.objects;
+import java.io.*;
+import java.util.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+
+    public class CylinderTest {
+        @Test
+         public void testType(){
+                        System.out.println("Тестируем класс Цилиндр");
+                        Cylinder t = new Cylinder(1,1,1,"Cylinder");
+                        assertEquals("Cylinder",t.name);
+                }   
+        @Test
+         public void testMethod(){
+                        System.out.println("
